@@ -13,3 +13,11 @@ docker compose up -d
 ```
 npm run start
 ```
+4. Update snapshot
+```
+ npx directus schema snapshot ./snapshot.yaml
+```
+3. Apply snapshot
+```
+npx directus schema apply ./snapshot.yaml
+```
